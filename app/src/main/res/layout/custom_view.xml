@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackgradientbackground">
+
+
+    <ImageView
+        android:id="@+id/iVProfilePictureDisplayed"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        tools:srcCompat="@tools:sample/avatars[11]" />
+
+    <TextView
+        android:id="@+id/tVNameDisplayed"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Name:"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tVUsernameDisplayed"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Username:"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tVEmailDisplayed"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Email:"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tVBirthDateDisplayed"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Birtdate:"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tVGenderDisplayed"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Gender:"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tVTCKNDisplayed"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="TCKN:"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/iVRegisterLogo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/youhavemadeitlogo" />
+</LinearLayout>
